@@ -1,9 +1,9 @@
 import { isWidget } from "@ckeditor/ckeditor5-widget/src/utils";
 import { attachLinkToDocumentation } from "@ckeditor/ckeditor5-utils/src/ckeditorerror";
 import fullWidthIcon from "@ckeditor/ckeditor5-core/theme/icons/object-full-width.svg";
-import leftIcon from "./theme/icons/align-left.svg";
+import leftIcon from "../theme/icons/align-left.svg";
 import centerIcon from "@ckeditor/ckeditor5-core/theme/icons/object-center.svg";
-import rightIcon from "./theme/icons/align-right.svg";
+import rightIcon from "../theme/icons/align-right.svg";
 
 const defaultIcons = {
   full: fullWidthIcon,

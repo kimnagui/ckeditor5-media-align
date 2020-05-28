@@ -1,7 +1,7 @@
 import Plugin from "@ckeditor/ckeditor5-core/src/plugin";
 import ButtonView from "@ckeditor/ckeditor5-ui/src/button/buttonview";
 import { normalizeMediaStyles } from "./utils";
-import "./theme/mediaembedstyle.css";
+import "../theme/mediaembedstyle.css";
 
 export default class MediaStyleUI extends Plugin {
   static get pluginName() {
