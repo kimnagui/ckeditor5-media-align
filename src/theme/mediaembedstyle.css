@@ -20,8 +20,8 @@
 }
 
 .ck-content .media-style-align-left {
-  float: left;
-  margin-right: var(--ck-media-style-spacing) !important;
+  margin-left: 0 !important;
+  margin-right: auto !important;
 }
 
 .ck-content .media-style-align-center {
@@ -30,6 +30,6 @@
 }
 
 .ck-content .media-style-align-right {
-  float: right;
-  margin-left: var(--ck-media-style-spacing) !important;
+  margin-right: 0 !important;
+  margin-left: auto !important;
 }
