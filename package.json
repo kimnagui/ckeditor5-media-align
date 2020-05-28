@@ -1,9 +1,12 @@
 {
   "name": "@kimnagui/ckeditor5-media-align",
   "main": "src/index.js",
-  "version": "1.0.0",
-  "description": "Add ckeditor5-media-embed align",
-  "author": "",
+  "version": "1.0.1",
+  "description": "Align feature for ckeditor5-media-embed",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/kimnagui/ckeditor5-media-align"
+  },
   "keywords": [
     "ckeditor",
     "ckeditor5",
@@ -11,10 +14,11 @@
     "ckeditor5-feature",
     "ckeditor5-plugin",
     "media-embed",
-    "ckeditor5-media"
+    "ckeditor5-media",
+    "ckeditor5-media-align"
   ],
   "license": "GPL-2.0-or-later",
-  "devDependencies": {
+  "dependencies": {
     "@ckeditor/ckeditor5-clipboard": "^19.0.0",
     "@ckeditor/ckeditor5-core": "^19.0.0",
     "@ckeditor/ckeditor5-engine": "^19.0.0",
