@@ -9,15 +9,15 @@ export default class MediaStyleUI extends Plugin {
   }
 
   localizedDefaultStylesTitles(locales) {
-    // const t = this.editor.t;
+    const t = this.editor.t;
     return {
-      "Full size media": (locales && locales.full) || "Full size media",
-      "Side media": "Side media",
+      "Full size media": (locales && locales.full) || t("Full size media"),
+      "Side media": (locales && locales.side) || t("Side media"),
       "Left aligned media":
-        (locales && locales.alignLeft) || "Left aligned media",
-      "Centered media": (locales && locales.alignCenter) || "Centered media",
+        (locales && locales.alignLeft) || t("Left aligned media"),
+      "Centered media": (locales && locales.alignCenter) || t("Centered media"),
       "Right aligned media":
-        (locales && locales.alignRight) || "Right aligned media",
+        (locales && locales.alignRight) || t("Right aligned media"),
     };
   }
 
