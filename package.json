@@ -1,7 +1,7 @@
 {
   "name": "@kimnagui/ckeditor5-media-align",
   "main": "src/index.js",
-  "version": "1.0.3",
+  "version": "1.0.4",
   "description": "Align feature for ckeditor5-media-embed",
   "repository": {
     "type": "git",
