@@ -25,6 +25,6 @@
     "@ckeditor/ckeditor5-ui": "^19.0.0",
     "@ckeditor/ckeditor5-upload": "^19.0.0",
     "@ckeditor/ckeditor5-utils": "^19.0.0",
-    "@ckeditor/ckeditor5-widget": "^19.0.0"
+    "@ckeditor/ckeditor5-widget": "^27.0.0"
   }
 }
